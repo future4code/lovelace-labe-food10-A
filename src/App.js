@@ -1,9 +1,10 @@
 import React from 'react'
+import SignUpPage from "./pages/SignUpPage/SignUpPage"
 
 const App = () => {
   return (
     <div>
-      LABEFOOD
+      <SignUpPage/>
     </div>
   )
 }
