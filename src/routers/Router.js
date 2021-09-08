@@ -15,7 +15,7 @@ const Router = () => {
         <BrowserRouter>
         <Switch>
 
-        <Route exact path='/cadastrarendereco'>
+        <Route exact path='/cadastrar-endereco'>
             <AddressRegistrationPage/>
         </Route>
 
@@ -35,11 +35,11 @@ const Router = () => {
             <MyProfilePage/>
       </Route>
 
-      <Route exact path='/restaurantesencontrados'>
+      <Route exact path='/restaurantes-encontrados'>
             <RestaurantPage/>
       </Route>
 
-      <Route exact path='/resultadodabusca'>
+      <Route exact path='/resultado-da-usca'>
             <SearchResultsPage/>
       </Route>
 
