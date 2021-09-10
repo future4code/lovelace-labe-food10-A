@@ -11,7 +11,6 @@ import SignUpPage from '../pages/SignUpPage/SignUpPage'
 import ErrorPage from '../pages/ErrorPage/ErrorPage'
 
 const Router = () => {
-
     const [cart, setCart] = useState(['pão']);
 
     const addToCart = (product) => {
@@ -89,7 +88,7 @@ const Router = () => {
             <MyProfilePage/>
       </Route>
 
-      <Route exact path='/restaurantes-encontrados'>
+      <Route exact path='/restaurantes/:id'>
             <RestaurantPage/>
       </Route>
 
@@ -100,6 +99,8 @@ const Router = () => {
       <Route exact path='/cadastrar'>
             <SignUpPage/>
       </Route>
+
+
 
     <Route>
     <ErrorPage/>
