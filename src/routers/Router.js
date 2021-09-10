@@ -11,8 +11,7 @@ import SignUpPage from '../pages/SignUpPage/SignUpPage'
 import ErrorPage from '../pages/ErrorPage/ErrorPage'
 
 const Router = () => {
-
-    const [cart, setCart] = useState(['pÃ£o']);
+    const [cart, setCart] = useState(['pão']);
 
     const addToCart = (product) => {
       const isProductAlreadyInCart = cart.find((productInCart) => {
