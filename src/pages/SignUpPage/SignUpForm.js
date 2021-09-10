@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import useForm from "../../hooks/useForm"
 import { TextField } from "@material-ui/core"
-import {Login} from "../../services/User"
+import {SingUp} from "../../services/User"
 
 
 const Container = styled.div`
@@ -33,7 +33,7 @@ const SignUpForm = () => {
     const cadastrar = (event) => {
         event.preventDefault()
         cleanFields()
-        Login(form)
+        SingUp(form)
         console.log('form', form)
 
     }

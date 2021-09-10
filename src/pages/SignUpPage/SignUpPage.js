@@ -1,6 +1,4 @@
 import React from "react"
-import styled from "styled-components"
-import useForm from "../../hooks/useForm"
 import SignUpForm from "./SignUpForm"
 
 const SignUpPage=()=>{
