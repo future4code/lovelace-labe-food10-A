@@ -1,4 +1,23 @@
+INSIRA O NOME NOME DO PROJETO AQUI
+rappi4D
+
+O que funciona
+- Integração do usuario com API login
+- Cadastro do usuario e cadastro de endereço na API
+- renderização de listas de restaurante com filtro de categoria
+- rendereização de detalhes de restaurantes com cardapio 
+O que não funciona
+- Layout do aplicativo
+- Carrinho
+- Myprofile page com historico de pedidos
+
+
+Link Surge
+bewildered-snail.surge.sh
+
 LAYOUT: Rappi4
+
+link od surge: bewildered-snail.surge.sh
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
