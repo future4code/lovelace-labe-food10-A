@@ -11,10 +11,6 @@ O que não funciona
 - Carrinho
 - Myprofile page com historico de pedidos
 
-
-Link Surge
-bewildered-snail.surge.sh
-
 LAYOUT: Rappi4
 
 link od surge: bewildered-snail.surge.sh
